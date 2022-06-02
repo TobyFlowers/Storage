@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100);
+
+.loginIcon {
+ display: block;
+ margin-left: auto;
+ margin-right:  auto;
+ width: 20%;
+}
+
+a.logoutButton {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: red;
+}
+
+
+div.upload {
+    width: 64px;
+    height: 64px;
+    background: url(http://tobyflowers.xyz/upload.png);
+    overflow: hidden;
+    
+}
+
+div.upload input {
+    display: block !important;
+    width: 64px !important;
+    height: 64px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+}
+
+div.delete {
+    width: 32px;
+    height: 32px;
+    background: url(http://tobyflowers.xyz/delete.png);
+    overflow: hidden;
+}
+
+div.upload input {
+    display: block !important;
+    width: 32px !important;
+    height: 32px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+}
+
+div.download {
+  width: 32px; 
+  height: 32px;
+  background: url(http://tobyflowers.xyz/download.png);
+  overflow: hidden;
+}
+
+div.board {
+ color: #874000;
+}
+
+div.home{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #874000;
+}
+
+div.stats {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #BC5F04;
+}
+
+body {
+ font-family: 'Roboto', sans-serif;
+ background-color: #0F0A0A;
+   margin: 0;
+}
+
+div.mainPage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+input[type=submit]{
+ padding: 5px 15px;
+ background: #BC5F04;
+ border: 0 none;
+ cursor: pointer;
+ -webkit-border-radius: 5px;
+ border-radius: 5px;
+ text-align: center;
+ margin-top: 10px;
+ z-index: 1
+}
+
+div.form {
+ text-align: center;
+ display: block;
+ margin: 0 auto;
+}
+
+input[name=username] {
+  padding: 5px 15px;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+
+input[name=password] {
+  padding: 5px 15px;
+  border: 5px;
+  cursor: pointer; 
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+
+input[name=title] {
+  padding: 5px 15px;
+  border: 5px;
+  cursor: pointer;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+
+input[name=description] {
+ padding: 5px 15px;
+ border: 5px;
+ cursor: pointer;
+ -webkit-border-radius: 15px;
+ border-radius: 15px;
+}
+
+input[name=file] {
+ padding: 5px 15px;
+ border: 5px;
+ cursor: pointer;
+ -webkit-border-radius: 15px;
+ boder-radius: 15px;
+}
+
+div.opaque {
+  opacity: 0;
+}
